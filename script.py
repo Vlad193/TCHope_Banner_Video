@@ -142,7 +142,7 @@ threading.Thread(target=video_loop, daemon=True).start()
 print("Script started.")
 print("  ▸ Press '-' — On/Off")
 print("  ▸ Press '+' — Reset video to 0 second")
-print("Нажмите CTRL+C для выхода.")
+print("Press CTRL+C for Exit.")
 
 keyboard.add_hotkey('-', toggle_active)
 keyboard.add_hotkey('+', request_reset)
